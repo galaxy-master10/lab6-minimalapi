@@ -61,6 +61,6 @@ jobs:
       - name: Deploy to Azure App Service
         run: |
           az webapp deploy \
-            --resource-group jama-asp-production-westeurope-01 \
-            --name jama-asp-production-westeurope-01 \
+            --resource-group jama-rg-production-westeurope-01 \
+            --name jama-app-production-westeurope-01 \
             --src-path app.zip
