@@ -44,7 +44,7 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
-    environment: production
+    environment: azure
     steps:
       - name: Download Artifact
         uses: actions/download-artifact@v3
