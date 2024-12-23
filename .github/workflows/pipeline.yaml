@@ -64,3 +64,4 @@ jobs:
             --resource-group jama-rg-production-westeurope-01 \
             --name jama-app-production-westeurope-01 \
             --src-path app.zip
+            
