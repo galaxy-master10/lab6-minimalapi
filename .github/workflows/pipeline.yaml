@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - staging
-      
+
 
 permissions:
   id-token: write
@@ -61,6 +61,6 @@ jobs:
       - name: Deploy to Azure App Service
         run: |
           az webapp deploy \
-            --resource-group jama-staging-rg-01 \
-            --name jama-app-staging-westeurope-01 \
+            --resource-group jama-asp-staging-westeurope-01 \
+            --name jama-asp-staging-westeurope-01 \
             --src-path app.zip
