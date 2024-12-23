@@ -63,4 +63,5 @@ jobs:
             --resource-group jama-rg-staging-westeurope-01 \
             --name jama-app-staging-westeurope-01 \
             --src-path app.zip
+            
 
